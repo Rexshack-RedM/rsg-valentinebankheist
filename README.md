@@ -10,6 +10,7 @@
 - qr-core
 
 # Installation
+- ensure that the bank doors are not listed qr-doorlock, if so remove them as this script locks the doors
 - ensure that the dependancies are added and started
 - add rsg-valentinebankheist to your resources folder
 - add items to your "\qr-core\shared\items.lua"
