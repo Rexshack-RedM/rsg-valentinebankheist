@@ -8,6 +8,7 @@
 
 # Dependancies
 - qr-core
+- qr-lockpick
 
 # Installation
 - ensure that the bank doors are not listed qr-doorlock, if so remove them as this script locks the doors
