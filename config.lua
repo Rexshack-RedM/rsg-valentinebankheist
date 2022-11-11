@@ -2,6 +2,8 @@ Config = {}
 
 -- settings
 Config.MinimumLawmen = 1 -- amount of lawman needed for heist
+Config.BankLockdown = 300 -- amount of seconds until bank lockdown (300 = 5 mins)
+Config.BankCooldown = 3600 -- amount of time in seconds until bank can be robbed again (3600 = 1hr)
 
 -- lock valentine bank doors
 Config.VaultDoors = {
@@ -24,7 +26,7 @@ Config.SmallRewardAmount = 1
 Config.MediumRewardAmount = 2
 Config.LargeRewardAmount = 3
 
--- set the money award for large reward amount
+-- set the money award gveing for large reward amount
 Config.MoneyRewardType = 'bloodmoney' -- cash or bloodmoney
 Config.MoneyRewardAmount = 500 -- amount of money to give player
 

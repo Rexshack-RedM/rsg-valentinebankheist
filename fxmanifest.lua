@@ -3,7 +3,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 author 'RexShack#3041'
-description 'rsg-valentinebankheist'
+description 'rsg-rhodesbankheist'
 
 client_scripts {
     'client/client.lua'
@@ -18,6 +18,7 @@ shared_scripts {
 }
 
 dependency 'qr-core'
+dependency 'qr-menu'
 dependency 'qr-lockpick'
 
 lua54 'yes'
