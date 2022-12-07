@@ -7,18 +7,18 @@ Config.BankCooldown = 3600 -- amount of time in seconds until bank can be robbed
 
 -- lock valentine bank doors
 Config.VaultDoors = {
-	2343746133, -- left gate locked (no access)
-	1340831050, -- left gate locked (use lockpick)
-	334467483, -- interior side door to office (no access)
-	2307914732, -- back door
-	576950805, -- vault door (use dynamite)
+    2343746133, -- left gate locked (no access)
+    1340831050, -- left gate locked (use lockpick)
+    334467483, -- interior side door to office (no access)
+    2307914732, -- back door
+    576950805, -- vault door (use dynamite)
 }
 
 -- set the item rewards
 Config.RewardItems = {
     'goldbar', -- example
-	'goldwatch', -- example
-	'carrot', -- example
+    'goldwatch', -- example
+    'carrot', -- example
 }
 
 -- set item rewards amount
@@ -31,11 +31,11 @@ Config.MoneyRewardType = 'bloodmoney' -- cash or bloodmoney
 Config.MoneyRewardAmount = 500 -- amount of money to give player
 
 Config.HeistNpcs = {
-	[1] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-303.67, 778.37, 118.72 -1), ["Heading"] = 94.96 },
-	[2] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-316.27, 774.87, 118.05 -1), ["Heading"] = 339.55 },
-	[3] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-308.59, 759.95, 118.73 -1), ["Heading"] = 194.29 },
-	[4] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-298.43, 762.16, 118.75 -1), ["Heading"] = 3.53 },
-	[5] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-307.31, 777.03, 123.58 -1), ["Heading"] = 193.17 },
+    [1] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-303.67, 778.37, 118.72 -1), ["Heading"] = 94.96 },
+    [2] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-316.27, 774.87, 118.05 -1), ["Heading"] = 339.55 },
+    [3] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-308.59, 759.95, 118.73 -1), ["Heading"] = 194.29 },
+    [4] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-298.43, 762.16, 118.75 -1), ["Heading"] = 3.53 },
+    [5] = { ["Model"] = "RE_POLICECHASE_MALES_01", ["Pos"] = vector3(-307.31, 777.03, 123.58 -1), ["Heading"] = 193.17 },
 }
 
 -- -1 DOORSTATE_INVALID,
