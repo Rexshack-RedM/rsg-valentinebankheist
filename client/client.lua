@@ -117,7 +117,7 @@ AddEventHandler('rsg-valentinebankheist:client:boom', function()
             Citizen.InvokeNative(0x6BAB9442830C7F53, 576950805, 0)
             TriggerEvent('rsg-valentinebankheist:client:policenpc')
             local alertcoords = GetEntityCoords(PlayerPedId())
-            TriggerServerEvent('police:server:policeAlert', 'Rhodes Bank is being robbed')
+            TriggerServerEvent('police:server:policeAlert', 'Valentine Bank is being robbed')
         else
             QRCore.Functions.Notify('you need dynamite to do that', 'error')
         end
