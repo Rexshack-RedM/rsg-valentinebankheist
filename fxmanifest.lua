@@ -3,7 +3,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 author 'RexShack#3041'
-description 'rsg-rhodesbankheist'
+description 'rsg-valentinebankheist'
 
 client_scripts {
     'client/client.lua'
